@@ -1,0 +1,127 @@
+<!-- =====================
+PROJECT: RESTAURANT WEBSITE (RESPONSIVE)
+PAGES: index.html, menu.html, contact.html
+===================== -->
+
+<!-- ===================== index.html ===================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delish Bites</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav class="navbar">
+    <h1>Delish Bites</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Fresh • Tasty • Delicious</h2>
+  <p>Experience the best food in town</p>
+  <button onclick="location.href='menu.html'">View Menu</button>
+</section>
+
+<footer>
+  <p>© 2026 Delish Bites</p>
+</footer>
+</body>
+</html>
+
+
+<!-- ===================== menu.html ===================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - Delish Bites</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav class="navbar">
+    <h1>Delish Bites</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="menu">
+  <h2>Our Menu</h2>
+  <div class="menu-grid">
+    <div class="item">
+      <img src="images/pizza.jpg" alt="Pizza">
+      <h3>Pizza</h3>
+      <p>₹299</p>
+    </div>
+    <div class="item">
+      <img src="images/burger.jpg" alt="Burger">
+      <h3>Burger</h3>
+      <p>₹199</p>
+    </div>
+    <div class="item">
+      <img src="images/pasta.jpg" alt="Pasta">
+      <h3>Pasta</h3>
+      <p>₹249</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Delish Bites</p>
+</footer>
+</body>
+</html>
+
+
+<!-- ===================== contact.html ===================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Delish Bites</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav class="navbar">
+    <h1>Delish Bites</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="contact">
+  <h2>Contact Us</h2>
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <textarea id="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+  <p id="formMsg"></p>
+</section>
+
+<footer>
+  <p>© 2026 Delish Bites</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
